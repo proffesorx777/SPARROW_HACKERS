@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **SPARROW_HACKRES**  group management bot.
+I am an **SPARROW_HACKERS**  group management bot.
 You can find the list of available commands with /help.
 
 """
@@ -143,14 +143,14 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="😅MERA BHAGWAN😅",
                                                                        url="t.me/Havtivisam")],
-                                                                                   [InlineKeyboardButton(text="ADD SPARROW_HACKRESBOT TO YOUR GROUP⚡",
+                                                                                   [InlineKeyboardButton(text="ADD SPARROW_HACKERSBOT TO YOUR GROUP⚡",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support grp",
                                                                        url="t.me/profxbotsupport")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("SPARROW_HACKRESBOT IS ALWAYS ACTIVE!!")
+        update.effective_message.reply_text("SPARROW_HACKERSBOT IS ALWAYS ACTIVE!!")
 
 
 def send_start(bot, update):

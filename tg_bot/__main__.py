@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **SPARROW_HACKERS**  group management bot.
+I am an **SPARROWHACKERS**  group management bot.
 You can find the list of available commands with /help.
 
 """
